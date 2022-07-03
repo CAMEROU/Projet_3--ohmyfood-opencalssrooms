@@ -1,0 +1,22 @@
+{
+  "name": "projet_3--ohmyfood-opencalssrooms",
+  "description": "Mon proje openclassrooms ohmyfood p3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAMEROU/Projet_3--ohmyfood-opencalssrooms.git"
+  },
+  "author": "Willson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CAMEROU/Projet_3--ohmyfood-opencalssrooms/issues"
+  },
+  "homepage": "https://github.com/CAMEROU/Projet_3--ohmyfood-opencalssrooms#readme",
+  "devDependencies": {
+    "sass": "^1.53.0"
+  }
+}
