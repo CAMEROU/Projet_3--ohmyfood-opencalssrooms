@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&family=Shrikhand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&family=Shrikhand&display=swap");
+
+*,
+::before
+::after{
+box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: "Roboto", "Sans-serif";
+}
+/* HEADER -*/
+header{
+    font-family: "Shrikhand", "cursive";
+    text-align: center;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 /25%);
+    padding: 0.2rem;
+    margin: 0px;
+    position: relative;
+}
+/* MAIN */
+main .ville{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.ville i{
+    font-size: 1.5rem;
+}
+
+/* EXPLORATION DES RESTAURANTS */
+ .explore{
+    text-align: center;
+ }
+ .explore h2{
+    margin-top: 2rem;
+    font-size: 2rem;
+ }
+ .explore p{
+    font-size: 1rem;
+ }
+/* BUTTON GRADIENT */
+ .explore button{
+   background-image: linear-gradient(rgba(255,121,218,0.9), rgba(147, 86, 220, 0.9));
+   font-weight: 300;
+   font-size: 1.5rem;
+   padding: 1rem 2rem;
+   border: none;
+   border-radius: 2rem;
+   box-shadow: 2px 1px 5px -3px #000000;
+   color: white;
+   transition: all 100ms;
+   margin-top: 1rem;
+ }
+
+ .explore button:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
