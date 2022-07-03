@@ -1,0 +1,13 @@
+/* MAIN */
+.ville {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 0.2rem;
+}
+.ville i {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=ville.css.map */

@@ -1,0 +1,48 @@
+
+/* EXPLORATION DES RESTAURANTS */
+.explore{
+    text-align: center;
+ 
+ & h2{
+    margin-top: 2rem;
+    font-size: 2rem;
+ 
+ & p{
+    font-size: 1rem;
+ }
+}}
+
+/* BUTTON GRADIENT */
+  button{
+  background-image: linear-gradient(rgba(255,121,218,0.9), rgba(147, 86, 220, 0.9));
+   font-weight: 300;
+   font-size: 1.5rem;
+   padding: 1rem 2rem;
+   border: none;
+   border-radius: 2rem;
+   box-shadow: 2px 1px 5px -3px #000000;
+   color: white;
+   transition: all 100ms;
+   margin-top: 1rem;
+ }
+
+ .explore button:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+ }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
