@@ -1,0 +1,90 @@
+.menus {
+  margin-bottom: 2rem;
+  background-color: #f6f6f6;
+}
+.menus h2 {
+  padding: 0.5rem 0;
+}
+.menus .menus_card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+@media (max-width: 1000px) {
+  .menus .menus_card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.menus .new {
+  position: relative;
+}
+.menus .new::before {
+  content: "Nouveau";
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  width: 4.5rem;
+  background-color: #99E2D0;
+  color: darkgreen;
+  display: grid;
+  place-items: center;
+}
+.menus .card {
+  flex-grow: 1;
+}
+.menus .card_image {
+  height: 15rem;
+  background-size: cover;
+  border-radius: 12px 12px 0 0;
+}
+.menus .card_image-1 {
+  background-image: url("../../assets/plat_1.jpg");
+}
+.menus .card_image-2 {
+  background-image: url("../../assets/plat_2.jpg");
+}
+.menus .card_image-3 {
+  background-image: url("../../assets/plat_3.jpg");
+}
+.menus .card_image-4 {
+  background-image: url("../../assets/plat_4.jpg");
+}
+.menus .card_description {
+  background-color: white;
+  position: relative;
+  padding: 0.5rem;
+  box-shadow: 2px 1px 3px -2px #000000;
+  border-radius: 0px 0px 12px 12px;
+  /* @include mixins.coeur; */
+}
+.menus .card_description i {
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.menus .card_description .fas {
+  color: transparent;
+  background-image: linear-gradient(#ff79da, #9356dc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  opacity: 0;
+  transition: all 100ms;
+}
+.menus .card_description .fas:hover {
+  opacity: 1;
+  transform: translateY(-50%) scale(1.02);
+}
+.menus .card h3 {
+  padding: 0.2rem;
+  margin: 0;
+}
+.menus .card p {
+  padding: 0.2rem;
+  margin: 0;
+}/*# sourceMappingURL=menus.css.map */

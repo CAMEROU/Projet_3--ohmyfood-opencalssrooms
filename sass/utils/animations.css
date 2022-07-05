@@ -1,0 +1,16 @@
+@-webkit-keyframes monAnimation {
+  0% {
+    transform: rotate(-270deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@keyframes monAnimation {
+  0% {
+    transform: rotate(-270deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}/*# sourceMappingURL=animations.css.map */

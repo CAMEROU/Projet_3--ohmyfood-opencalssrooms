@@ -1,9 +1,14 @@
 /* EXPLORATION DES RESTAURANTS */
+.city {
+  background-color: #f6f6f6;
+  min-height: 21rem;
+}
+
 .explore {
   text-align: center;
 }
 .explore h2 {
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: 2rem;
 }
 .explore h2 p {
@@ -11,20 +16,22 @@
 }
 
 /* BUTTON GRADIENT */
-button {
-  background-image: linear-gradient(rgba(255, 121, 218, 0.9), rgba(147, 86, 220, 0.9));
+.explore button {
+  margin: 2rem;
   font-weight: 300;
-  font-size: 1.5rem;
-  padding: 1rem 2rem;
+  font-size: 1rem;
+  padding: 1rem 1rem;
   border: none;
   border-radius: 2rem;
-  box-shadow: 2px 1px 5px -3px #000000;
+  box-shadow: 2px 1px 3px -2px #000000;
+  background-image: linear-gradient(#ff79da, #9356dc);
   color: white;
   transition: all 100ms;
   margin-top: 1rem;
+  cursor: pointer;
 }
 
 .explore button:hover {
   transform: scale(1.02);
-  opacity: 0.9;
+  opacity: 0.7;
 }/*# sourceMappingURL=explore.css.map */
