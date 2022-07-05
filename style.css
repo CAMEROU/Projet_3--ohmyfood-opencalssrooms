@@ -250,16 +250,16 @@ header {
   border-radius: 12px 12px 0 0;
 }
 .menus .card_image-1 {
-  background-image: url("../../assets/plat_1.jpg");
+  background-image: url("./assets/plat_1.jpg");
 }
 .menus .card_image-2 {
-  background-image: url("../../assets/plat_2.jpg");
+  background-image: url("./assets/plat_2.jpg");
 }
 .menus .card_image-3 {
-  background-image: url("../../assets/plat_3.jpg");
+  background-image: url("./assets/plat_3.jpg");
 }
 .menus .card_image-4 {
-  background-image: url("../../assets/plat_4.jpg");
+  background-image: url("./assets/plat_4.jpg");
 }
 .menus .card_description {
   background-color: white;
