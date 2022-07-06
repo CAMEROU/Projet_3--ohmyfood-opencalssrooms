@@ -94,7 +94,7 @@ transform: translateY(-50%);
 }
  .menu-grid{
     overflow: hidden;
-    background-color:#f6f6f6;
+   /* background-color:#f6f6f6;*/
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(1, 1fr);
@@ -118,11 +118,11 @@ transform: translateY(-50%);
  }
  .class-menu{
    overflow: hidden;
-   box-shadow: 0 0 0.5rem rgba(73, 73, 73, 0.25);
+   @include mixins.base-shadow;
    text-overflow: ellipsis;
    white-space: nowrap;
     background-color: white;
-    border-radius: 1rem;
+    border-radius: 1.3rem;
    animation: checks 1s;
    animation-fill-mode: both;
    @for $i from 1  through 12 {
@@ -133,6 +133,8 @@ transform: translateY(-50%);
  .menu-item{
     display: flex;
     overflow: hidden;
+    @include mixins.base-shadow;
+   /* box-shadow: 2px 2px 16px -3px rgb(97, 96, 96);*/
     .prix{
         padding: 1rem;
         margin-left: auto;
@@ -163,13 +165,12 @@ transform: translateY(-50%);
             flex-shrink: 0;
             place-items: center;
             align-items: center;
-            border-radius: 1rem;
+        border-radius: 0 1rem 1rem 0;
             $button-width:4rem;
            @include mixins.tertiary-corlor;
             @include mixins.couleur;
             margin-right: -1 * $button-width;
             width: $button-width;
-            border-radius: 0 1rem 1rem 0;
             transition: margin-right 0.5s;
             i{
                 background-color: white;

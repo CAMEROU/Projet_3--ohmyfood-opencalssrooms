@@ -3,7 +3,7 @@
 }
 
 @mixin base-shadow {
-    box-shadow: 2px 1px 3px -2px #000000;
+    box-shadow: 2px 1px 3px -2px rgb(185, 185, 184);
 }
 
 $base-height: 1rem;
@@ -48,6 +48,8 @@ $base-height: 1rem;
 @mixin couleur {
     color: #99e2d0 ;
 }
+
+
 
 @mixin monAnimation {
     @keyframes monAnimation{
