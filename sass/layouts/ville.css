@@ -19,15 +19,14 @@
   position: fixed;
   inset: 0;
   z-index: 1;
-  opacity: 0.6;
-  transition: transform 1s;
-  -webkit-animation: checkup 100ms 5s forwards;
-          animation: checkup 100ms 5s forwards;
+  opacity: 0.9;
+  -webkit-animation: checkup 100ms 3s forwards;
+          animation: checkup 100ms 3s forwards;
   transform-origin: top;
 }
 .laoder i {
-  -webkit-animation: spin 5s;
-          animation: spin 5s;
+  -webkit-animation: spin 3s;
+          animation: spin 3s;
   border-top: 1px solid #ff79da;
   color: #ff79da;
   font-size: 5rem;

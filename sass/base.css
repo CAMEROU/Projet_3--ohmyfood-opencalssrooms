@@ -22,7 +22,7 @@ h4, h5, h6, p {
 }
 
 main {
-  padding: 0 3rem;
+  padding: 0 2rem;
   background-color: #f6f6f6;
 }
 @media (max-width: 1000px) {

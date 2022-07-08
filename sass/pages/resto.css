@@ -73,17 +73,16 @@
 .resto-title {
   margin-top: -2rem;
   background-color: #f6f6f6;
-  margin-bottom: -2rem;
 }
 .resto-title h2 {
   font-family: "Shrikhand", "cursive";
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 2rem 2rem 0 0;
 }
 .resto-title .fa-heart {
-  font-size: 1.5rem;
+  font-size: 2rem;
   position: absolute;
-  right: 1rem;
+  right: 2rem;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -102,12 +101,11 @@
 }
 
 .resto-main {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .menu-grid {
   overflow: hidden;
-  /* background-color:#f6f6f6;*/
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(1, 1fr);
@@ -134,7 +132,7 @@
 }
 .menu-grid .class-menu {
   overflow: hidden;
-  box-shadow: 2px 1px 3px -2px rgb(185, 185, 184);
+  box-shadow: 2px 1px 5px -3px #000000;
   text-overflow: ellipsis;
   white-space: nowrap;
   background-color: white;
@@ -278,7 +276,7 @@ button:hover {
 }
 
 .commande {
-  height: 5rem;
+  height: 8rem;
   display: grid;
   place-items: center;
 }/*# sourceMappingURL=resto.css.map */

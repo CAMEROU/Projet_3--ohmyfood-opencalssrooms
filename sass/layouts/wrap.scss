@@ -1,5 +1,5 @@
 .indication{
-    padding: 0 3rem;
+    padding: 0 2rem;
     background-color: white;
     margin-bottom: 2rem;
     @media (max-width: 1000px) {
@@ -7,6 +7,9 @@
             padding: 0 1rem;
         }
     }
+    /*& h2{
+        padding: 0 2rem;
+    }*/
  }
 
 .wrap{
@@ -22,20 +25,20 @@
     position: relative;
 
     &::before{
-content:counter(steps);
-counter-increment: steps;
-background-color: rgb(194, 38, 194);
-color: white;
-display: grid;
-place-items: center;
-position: absolute;
-left: -0.5rem;
-top: 50%;
-width: 1.5rem;
-height: 1.5rem;
-border-radius: 50%;
-transform: translateY(-50%);
-cursor: pointer;
+       content:counter(steps);
+        counter-increment: steps;
+        background-color: rgb(194, 38, 194);
+        color: white;
+        display: grid;
+        place-items: center;
+        position: absolute;
+        left: -0.5rem;
+        top: 50%;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
     
     }
         padding: 1rem 2rem;
@@ -50,7 +53,7 @@ cursor: pointer;
                 color: purple;
             }
     transform: translateY(0);
-    background-color: rgba(236, 223, 230, 0.897);
+    background-color: rgb(226, 185, 226);
     }
      .fas{
         color:rgb(150, 147, 147);

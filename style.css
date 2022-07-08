@@ -22,7 +22,7 @@ h4, h5, h6, p {
 }
 
 main {
-  padding: 0 3rem;
+  padding: 0 2rem;
   background-color: #f6f6f6;
 }
 @media (max-width: 1000px) {
@@ -67,15 +67,14 @@ header {
   position: fixed;
   inset: 0;
   z-index: 1;
-  opacity: 0.6;
-  transition: transform 1s;
-  -webkit-animation: checkup 100ms 5s forwards;
-          animation: checkup 100ms 5s forwards;
+  opacity: 0.9;
+  -webkit-animation: checkup 100ms 3s forwards;
+          animation: checkup 100ms 3s forwards;
   transform-origin: top;
 }
 .laoder i {
-  -webkit-animation: spin 5s;
-          animation: spin 5s;
+  -webkit-animation: spin 3s;
+          animation: spin 3s;
   border-top: 1px solid #ff79da;
   color: #ff79da;
   font-size: 5rem;
@@ -147,9 +146,12 @@ header {
 }
 
 .indication {
-  padding: 0 3rem;
+  padding: 0 2rem;
   background-color: white;
   margin-bottom: 2rem;
+  /*& h2{
+      padding: 0 2rem;
+  }*/
 }
 @media (max-width: 1000px) {
   .indication {
@@ -197,7 +199,7 @@ header {
 }
 .wrap li:hover {
   transform: translateY(0);
-  background-color: rgba(236, 223, 230, 0.897);
+  background-color: rgb(226, 185, 226);
 }
 .wrap li:hover i {
   color: purple;
@@ -301,7 +303,8 @@ header {
 footer {
   background-color: rgba(8, 0, 0, 0.829);
   color: white;
-  min-height: 10rem;
+  padding: 1rem;
+  height: 12rem;
 }
 @media (max-width: 1000px) {
   footer {
@@ -321,26 +324,25 @@ footer .info {
 footer h2 {
   font-family: "Shrikhand", "Cursif";
   font-weight: 400;
-  margin-left: 1.8rem;
+  margin-left: -0.5rem;
   padding: 1rem;
-  margin-top: 3rem;
 }
 @media (max-width: 1000px) {
   footer h2 {
-    margin-left: 0;
+    margin-left: -1rem;
   }
 }
 footer p {
-  padding: 0.5rem;
-  margin-right: 9rem;
+  margin-right: 11rem;
 }
 @media (max-width: 1000px) {
   footer p {
-    margin-right: 7rem;
+    margin-right: 0.1rem;
+    padding: 0.2rem;
   }
 }
 footer i {
-  margin-left: 0.2rem;
+  margin-left: 0.1rem;
 }
 
 @-webkit-keyframes monAnimation {
@@ -419,17 +421,16 @@ footer i {
 .resto-title {
   margin-top: -2rem;
   background-color: #f6f6f6;
-  margin-bottom: -2rem;
 }
 .resto-title h2 {
   font-family: "Shrikhand", "cursive";
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 2rem 2rem 0 0;
 }
 .resto-title .fa-heart {
-  font-size: 1.5rem;
+  font-size: 2rem;
   position: absolute;
-  right: 1rem;
+  right: 2rem;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -448,12 +449,11 @@ footer i {
 }
 
 .resto-main {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .menu-grid {
   overflow: hidden;
-  /* background-color:#f6f6f6;*/
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(1, 1fr);
@@ -480,7 +480,7 @@ footer i {
 }
 .menu-grid .class-menu {
   overflow: hidden;
-  box-shadow: 2px 1px 3px -2px rgb(185, 185, 184);
+  box-shadow: 2px 1px 5px -3px #000000;
   text-overflow: ellipsis;
   white-space: nowrap;
   background-color: white;
@@ -624,7 +624,7 @@ button:hover {
 }
 
 .commande {
-  height: 5rem;
+  height: 8rem;
   display: grid;
   place-items: center;
 }/*# sourceMappingURL=style.css.map */
