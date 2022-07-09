@@ -430,7 +430,7 @@ footer i {
 .resto-title .fa-heart {
   font-size: 2rem;
   position: absolute;
-  right: 2rem;
+  right: 1rem;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -450,9 +450,13 @@ footer i {
 
 .resto-main {
   padding: 0 1rem;
+  margin-top: 2rem;
+  overflow: hidden;
 }
 
 .menu-grid {
+  padding: 0.1rem;
+  background-color: #f6f6f6;
   overflow: hidden;
   display: grid;
   gap: 1rem;
@@ -464,6 +468,7 @@ footer i {
   }
 }
 .menu-grid h3 {
+  margin-top: -0.1rem;
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 400;
@@ -480,11 +485,9 @@ footer i {
 }
 .menu-grid .class-menu {
   overflow: hidden;
-  box-shadow: 2px 1px 5px -3px #000000;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  box-shadow: 1px 2px 5px -3px rgb(136, 136, 135);
   background-color: white;
-  border-radius: 1.3rem;
+  border-radius: 1.2rem;
   -webkit-animation: checks 1s;
           animation: checks 1s;
   -webkit-animation-fill-mode: both;
@@ -506,43 +509,9 @@ footer i {
   -webkit-animation-delay: 400ms;
           animation-delay: 400ms;
 }
-.menu-grid .class-menu:nth-child(5) {
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
-}
-.menu-grid .class-menu:nth-child(6) {
-  -webkit-animation-delay: 600ms;
-          animation-delay: 600ms;
-}
-.menu-grid .class-menu:nth-child(7) {
-  -webkit-animation-delay: 700ms;
-          animation-delay: 700ms;
-}
-.menu-grid .class-menu:nth-child(8) {
-  -webkit-animation-delay: 800ms;
-          animation-delay: 800ms;
-}
-.menu-grid .class-menu:nth-child(9) {
-  -webkit-animation-delay: 900ms;
-          animation-delay: 900ms;
-}
-.menu-grid .class-menu:nth-child(10) {
-  -webkit-animation-delay: 1000ms;
-          animation-delay: 1000ms;
-}
-.menu-grid .class-menu:nth-child(11) {
-  -webkit-animation-delay: 1100ms;
-          animation-delay: 1100ms;
-}
-.menu-grid .class-menu:nth-child(12) {
-  -webkit-animation-delay: 1200ms;
-          animation-delay: 1200ms;
-}
 .menu-grid .class-menu .menu-item {
   display: flex;
   overflow: hidden;
-  box-shadow: 2px 1px 3px -2px rgb(185, 185, 184);
-  /* box-shadow: 2px 2px 16px -3px rgb(97, 96, 96);*/
 }
 .menu-grid .class-menu .menu-item .prix {
   padding: 1rem;
@@ -624,7 +593,8 @@ button:hover {
 }
 
 .commande {
-  height: 8rem;
+  padding: 0.1rem;
+  margin: 0;
   display: grid;
   place-items: center;
 }/*# sourceMappingURL=style.css.map */
