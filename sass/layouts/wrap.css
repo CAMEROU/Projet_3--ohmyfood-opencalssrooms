@@ -2,9 +2,6 @@
   padding: 0 2rem;
   background-color: white;
   margin-bottom: 2rem;
-  /*& h2{
-      padding: 0 2rem;
-  }*/
 }
 @media (max-width: 1000px) {
   .indication {
@@ -37,7 +34,7 @@
 .wrap li::before {
   content: counter(steps);
   counter-increment: steps;
-  background-color: rgb(194, 38, 194);
+  background-color: rgba(165, 39, 129, 0.8156862745);
   color: white;
   display: grid;
   place-items: center;
@@ -55,7 +52,7 @@
   background-color: rgb(226, 185, 226);
 }
 .wrap li:hover i {
-  color: purple;
+  color: rgb(153, 6, 153);
 }
 .wrap li .fas {
   color: rgb(150, 147, 147);

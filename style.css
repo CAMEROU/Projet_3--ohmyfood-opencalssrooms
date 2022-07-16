@@ -16,11 +16,6 @@ h4, h5, h6, p {
   margin: 0;
 }
 
-.text {
-  padding: 0;
-  margin: 0;
-}
-
 main {
   padding: 0 2rem;
   background-color: #f6f6f6;
@@ -75,7 +70,7 @@ header {
 .laoder i {
   -webkit-animation: spin 3s;
           animation: spin 3s;
-  border-top: 1px solid #ff79da;
+  border-top: 1px solid #9356dc;
   color: #ff79da;
   font-size: 5rem;
 }
@@ -119,9 +114,11 @@ header {
 .explore h2 {
   margin-top: 1rem;
   font-size: 2rem;
+  font-family: "Roboto", "Cursive";
 }
 .explore h2 p {
   font-size: 1rem;
+  font-family: "Roboto", "Cursive";
 }
 
 /* BUTTON GRADIENT */
@@ -149,9 +146,6 @@ header {
   padding: 0 2rem;
   background-color: white;
   margin-bottom: 2rem;
-  /*& h2{
-      padding: 0 2rem;
-  }*/
 }
 @media (max-width: 1000px) {
   .indication {
@@ -184,7 +178,7 @@ header {
 .wrap li::before {
   content: counter(steps);
   counter-increment: steps;
-  background-color: rgb(194, 38, 194);
+  background-color: rgba(165, 39, 129, 0.8156862745);
   color: white;
   display: grid;
   place-items: center;
@@ -202,7 +196,7 @@ header {
   background-color: rgb(226, 185, 226);
 }
 .wrap li:hover i {
-  color: purple;
+  color: rgb(153, 6, 153);
 }
 .wrap li .fas {
   color: rgb(150, 147, 147);
@@ -269,7 +263,6 @@ header {
   padding: 0.5rem;
   box-shadow: 2px 1px 3px -2px rgb(185, 185, 184);
   border-radius: 0px 0px 12px 12px;
-  /* @include mixins.coeur; */
 }
 .menus .card_description i {
   font-size: 2rem;
@@ -451,7 +444,6 @@ footer i {
 .resto-main {
   padding: 0 1rem;
   margin-top: 2rem;
-  overflow: hidden;
 }
 
 .menu-grid {

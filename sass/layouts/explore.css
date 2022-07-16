@@ -10,9 +10,11 @@
 .explore h2 {
   margin-top: 1rem;
   font-size: 2rem;
+  font-family: "Roboto", "Cursive";
 }
 .explore h2 p {
   font-size: 1rem;
+  font-family: "Roboto", "Cursive";
 }
 
 /* BUTTON GRADIENT */

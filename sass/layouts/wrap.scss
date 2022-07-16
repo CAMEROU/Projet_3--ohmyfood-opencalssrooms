@@ -7,9 +7,7 @@
             padding: 0 1rem;
         }
     }
-    /*& h2{
-        padding: 0 2rem;
-    }*/
+   
  }
 
 .wrap{
@@ -27,7 +25,7 @@
     &::before{
        content:counter(steps);
         counter-increment: steps;
-        background-color: rgb(194, 38, 194);
+        background-color: #a52781d0 ;
         color: white;
         display: grid;
         place-items: center;
@@ -50,7 +48,7 @@
         cursor: pointer;
         &:hover {
             i{
-                color: purple;
+                color: rgb(153, 6, 153) ;
             }
     transform: translateY(0);
     background-color: rgb(226, 185, 226);
