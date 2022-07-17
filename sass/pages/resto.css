@@ -187,6 +187,10 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.menu-grid .class-menu .menu-item .descrpt p {
+  color: gray;
+  font-size: 0.75rem;
+}
 .menu-grid .class-menu .menu-item .check {
   display: grid;
   flex-shrink: 0;
